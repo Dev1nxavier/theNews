@@ -1,0 +1,141 @@
+
+
+.jumbotron{
+    background-image: url(./resources/adeolu-eletu-unsplash.jpg);
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    font-family: Raleway;
+}
+
+.jumbotron p{
+    color: white;
+}
+
+.nav{
+    align-items: flex-start;
+}
+.search-button{
+    cursor: pointer;
+}
+
+#title_bar{
+    margin: 2em;
+    font-family: Raleway;
+    font-weight: 100;
+    display: flex;
+}
+
+#title_bar .news{
+    font-weight: 500;
+    color: blue;
+}
+
+#title_bar .search-terms{
+    margin-left: 2em;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.search-terms #language{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.search-terms .date{
+    margin-left: 20px;
+}
+
+.cards{
+    margin-left: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+select.dropdown{
+    border-radius: 0px;
+    border: none;
+    background: none;
+}
+
+.date_picker{
+    border: none;
+}
+
+.hamburger{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -150px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 60px 60px 60px 10px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: -5px;
+    font-size: 36px;
+    margin-left: 0;
+  }
+
+  .sidenav .sidebar-dropdown:not(.open){
+    display: none;
+  }
+
+  .sidenav .sidebar-dropdown.open{
+      display: block;
+  }
+
+  .sidenav .sidebar-dropdown .preference-item{
+      list-style: none;
+      color: white;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
